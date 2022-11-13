@@ -14,7 +14,7 @@
         android:text="This is the weather in cairo!"
         android:textColor="@color/white"
         android:textStyle="bold"
-        android:textSize="30sp"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,6 +23,8 @@
 
     <TextView
         android:id="@+id/degree_TV"
+        android:textSize="40sp"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/textView"
